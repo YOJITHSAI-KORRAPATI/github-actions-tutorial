@@ -8,6 +8,3 @@ jobs:
     - uses: actions/checkout@v3
     - name: Run a simple GitHub action
       run: echo "This workflow ran successfully for the particular action"
-
-    - name: simulating error
-      run: echo"Error taking place"; exit 1
