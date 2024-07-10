@@ -6,8 +6,8 @@ jobs:
     run-ons:ubuntu-latest
     steps:
     -uses: actions/checkout@v3
-    -name: Run a simple github action
-    -run: echo "this workflow run successfully for the particular action  "
+     name: Run a simple github action
+     run: echo "this workflow run successfully for the particular action  "
     
     
 
