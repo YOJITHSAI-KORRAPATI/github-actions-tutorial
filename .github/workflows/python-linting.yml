@@ -1,4 +1,4 @@
-name: linting python code
+name: Linting Python Code
 
 on: push
 
@@ -7,9 +7,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - name: Super-Linter
-       uses: super-linter/super-linter@v6.7.0
-            
-
-
-
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Super-Linter
+        uses: super-linter/super-linter@v6.7.0
